@@ -1,10 +1,13 @@
 # spring-framework-5
 Development test about Spring Framework 5 based in Spring Boot
 
-## SpringBoot
+## Spring Data JPA
+We are going to create a web App with spring boot.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+### Annotations
 
-### Spring Data JPA
+Creations POJOs (Author, Book) with @Entity for the class, @Id and @GeneratedValue for instances Id's, and relations between classes with @ManyToMany
 
-What things you need to install the software and how to install them
+### Repository
+
+Extends default repository provided in Spring Data
